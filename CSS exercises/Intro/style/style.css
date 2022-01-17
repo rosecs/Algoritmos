@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    text-align: center;
+    color: blue;
+}
+
+#main {
+    background-color: whitesmoke;
+    align-content: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.alert {
+    color: #72353D;  
+    background-color: #EAD2D5;
+}
+
+#rect1 {
+    height: 200px;
+    width: 40%;
+    color: blue;
+    padding: 20px;
+    border-radius: 50px;
+    border: round black  1px;
+    transform: rotate(90deg);
+
+}
+#div2 {
+    height: 200px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 50px;
+    border: round black  1px;
+    transform: rotate(90deg);
+    color: red;
+    animation-duration: 5s;
+    animation: alternate-reverse;
+    
+}
+
