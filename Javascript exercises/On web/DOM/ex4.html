@@ -32,8 +32,15 @@
         let removeMain = document.querySelector(".footer").classList.remove("main");
         let createList = document.createElement("li");
         let addTextToList = createList.innerText = "Four";
+        let newList = document.querySelector("ul").appendChild(newLi);
+        
+        let liIntoOl = document.querySelectorAll("ol li");
+        for(var i = 0; i < liIntoOl.length; i++){
+            liInsideOl[i].style.backgroundColor = "green";
+        }
 
-        document.appendChild();
+        let footer = document.querySelector(".footer");
+        footer.remove();
 
 
 
