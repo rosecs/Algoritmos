@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <section id="container">
+            <ul>
+                <li class="first">One</li>
+                <li class="second">Second</li>
+                <li class="third">Third</li>
+            </ul>
+            <ol>
+                <li class="first">One</li>
+                <li class="second">Second</li>
+                <li class="third">Third</li>
+            </ol>
+        </section>
+    </div>
+
+    <script>
+        let elementosSinQry = document.getElementById("container");
+        let elementoQry =  document.querySelector("#container");
+        let elementosClase = document.querySelectorAll(".second");
+        let elemtentoOl = document.querySelector("ol.third");
+        let elementoContainer = document.querySelector("#container").innerHTML = "Hello!";
+        let addMain = document.querySelector(".footer").classList.add("main");
+        let removeMain = document.querySelector(".footer").classList.remove("main");
+        let createList = document.createElement("li");
+        let addTextToList = createList.innerText = "Four";
+
+        document.appendChild();
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
